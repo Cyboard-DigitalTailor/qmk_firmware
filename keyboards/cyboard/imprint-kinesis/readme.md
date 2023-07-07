@@ -1,17 +1,15 @@
-# Cyboard Dactyls
+# Cyboard Imprint with Kinesis-like bottom row and a function row
 
 * Keyboard Maintainer: [Cyboard](https://github.com/Cyboard-DigitalTailor)
-* Hardware Supported: Cyboard Dactyls
-* Hardware Availability: [cyboard.digital](https://www.cyboard.digital/product-page/Dactyl-Manuform)
+* Hardware Supported: Cyboard Imprint
+* Hardware Availability: [cyboard.digital](https://www.cyboard.digital/product-page/imprint-made-to-measure)
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 ## Building Firmware
 
-Various sizes and thumb-cluster styles are supported as keymaps. To build the firmware, use the command:
-`qmk compile -kb cyboard/dactyl -km {THUMB STYLE}_{ROWS}`
-where `{THUMB STYLE}` can be `manuform`, `dual_arcs`, or `single_arc`
-and `{ROWS}` can be `function_row`, `number_row`, or `letters_only`
+To build the firmware, use the command:
+`qmk compile -kb cyboard/dactyl -km imprint_kinesis`
 
 ## Flashing
 
