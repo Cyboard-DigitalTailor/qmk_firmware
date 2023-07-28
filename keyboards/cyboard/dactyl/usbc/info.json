@@ -1,0 +1,12 @@
+{
+    "usb": {
+        "device_version": "0.2.0"
+    },
+    "matrix_pins": {
+        "rows": ["GP2", "GP3", "GP8", "GP4", "GP13", "GP9", "GP14"],
+        "cols": ["GP1", "GP10", "GP11", "GP12", "GP7", "GP6", "GP5"]
+    },
+    "ws2812": {
+        "pin": "GP15",
+    }
+}
